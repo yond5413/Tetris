@@ -1,0 +1,25 @@
+<html>
+    <head>
+    <title> Tetris </title>
+    </head>
+    <body>
+        <canvas id ='canvas' width ='400' height="800"> </canvas>
+        <canvas id = "nextShapeCanvas" width = "200" height = "200" style = "position: absolute; top: 10;"> </canvas>
+        
+        <canvas id = "scoreCanvas" width = "200" height = "200" style = "position: absolute; top: 260;"> </canvas>
+        <button
+        style= " width: 64px;
+        height: 64px;
+        border-radius: 50%;
+        background-color: azure;
+        border: 0px;
+        "
+        onclick="resetVars()"
+        > 
+
+        </button>
+        <img id = "image" src = "rotations.png" style="display: none" />
+        
+        <script src="tetris.js"></script>
+    </body>
+</html> 
